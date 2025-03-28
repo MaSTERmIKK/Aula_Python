@@ -15,4 +15,8 @@ if scelta.lower() == 's':
     print(f"Account creato con successo! ID assegnato: {next_id}")
     next_id += 1
 
-
+    nome = input("Inserisci il tuo nome di nuovo: ")
+    password = input("Inserisci la tua password di nuovo: ")
+    
+    if nome.lower() and password.lower() in nuovo_account:
+        print("Account esistente")
