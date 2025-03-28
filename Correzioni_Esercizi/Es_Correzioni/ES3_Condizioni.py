@@ -15,21 +15,4 @@ if scelta.lower() == 's':
     print(f"Account creato con successo! ID assegnato: {next_id}")
     next_id += 1
 
-else:
-    # Verifica se l'account esiste
-    nome = input("Inserisci il tuo nome per l'accesso: ")
-    password = input("Inserisci la tua password: ")
-    
-    account_trovato = None
-    for account in accounts:
-        # account è [id, nome_account, password_account]
-        if account[1] == nome and account[2] == password:
-            account_trovato = account
-            break
 
-    if account_trovato is not None:
-        print(f"Accesso riuscito. Benvenuto {account_trovato[1]} (ID: {account_trovato[0]}).")
-        print("Conclusione dello script...")
-        # Qui potresti far proseguire il programma oppure terminarlo
-    else:
-        print("Account non trovato o password errata. Impossibile concludere lo script.")
