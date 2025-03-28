@@ -1,0 +1,16 @@
+
+## Requisiti
+
+- **Python 3.x**
+- **Gestione degli ambienti virtuali**: si consiglia l'uso di [venv](https://docs.python.org/3/library/venv.html), [Pipenv](https://pipenv.pypa.io/) o [conda](https://docs.conda.io/) per isolare le dipendenze.
+- **Librerie Python**:
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyter
+
+È possibile installare tutte le dipendenze necessarie tramite il comando:
+
+```bash
+pip install -r requirements.txt
