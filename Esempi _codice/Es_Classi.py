@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 """
 Esempi unificati di polimorfismo e utilizzo di classi in Python:
 - classi semplici con __str__
