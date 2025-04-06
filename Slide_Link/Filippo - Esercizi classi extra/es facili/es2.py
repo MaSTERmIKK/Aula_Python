@@ -1,18 +1,4 @@
-"""
-🟠 Esercizio 2: Classe "Contatore"
-Crea una classe chiamata Contatore che simula un contatore numerico. Deve avere:
-
-un attributo valore, inizializzato a 0
-
-un metodo incrementa() che aumenta valore di 1
-
-un metodo azzera() che riporta valore a 0
-
-un metodo mostra() che stampa il valore corrente
-
-Obiettivo: gestire lo stato di un oggetto con metodi semplici.
-
-"""
+#🟠 Esercizio 2: Classe "Contatore"
 
 class Contatore:
     def __init__(self): # costruttore che non accetta parametri esterni

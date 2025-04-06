@@ -1,23 +1,7 @@
-"""
-🔵 Esercizio 2: Sistema di gestione prodotti
-Crea una classe Prodotto e una classe Magazzino.
+# 🔵 Esercizio 2: Sistema di gestione prodotti
 
-Classe Prodotto:
-Attributi: nome, prezzo, quantità
+# Avviso: l'esercizio contiene funzioni e procedimenti aggiuntivi non richiesti esplicitamente nelle tracce
 
-Classe Magazzino:
-Attributo: prodotti (lista di oggetti Prodotto)
-
-Metodi:
-
-aggiungi_prodotto(prodotto)
-
-valore_totale() → calcola il valore totale del magazzino (somma di prezzo × quantità)
-
-cerca_prodotto(nome) → ritorna il prodotto se esiste, altrimenti un messaggio di errore
-
-Obiettivo: esercitarsi con gestione di liste, ricerca, moltiplicazioni e strutture condizionali.
-"""
 class Prodotto:
     def __init__(self, nome, prezzo,quantita): # costruttore con parametri nome, prezzo e quantità
         self.nome = nome

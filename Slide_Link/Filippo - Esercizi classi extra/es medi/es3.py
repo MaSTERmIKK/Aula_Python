@@ -1,24 +1,6 @@
-"""
-🔵 Esercizio 3: Gestione Playlist Musicale
-Crea una classe Brano e una classe Playlist.
+# 🔵 Esercizio 3: Playlist musica
 
-Classe Brano:
-Attributi: titolo, artista, durata (in minuti, es. 3.5)
-
-Classe Playlist:
-Attributo: brani (lista di oggetti Brano)
-
-Metodi:
-
-aggiungi_brano(brano)
-
-durata_totale() → somma tutte le durate
-
-cerca_per_artista(nome) → stampa tutti i titoli dei brani di quell’artista
-
-Obiettivo: gestione di tuple o oggetti con cicli, somma e filtri.
-
-"""
+# Avviso: l'esercizio contiene funzioni e procedimenti aggiuntivi non richiesti esplicitamente nelle tracce
 
 class Brano:
     def __init__(self, titolo, artista, durata): # costruttore con parametri passati

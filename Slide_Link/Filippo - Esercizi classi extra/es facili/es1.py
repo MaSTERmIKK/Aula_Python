@@ -1,16 +1,4 @@
-"""
-🟠 Esercizio 1: Classe "Libro"
-Crea una classe chiamata Libro che rappresenti un libro. La classe deve contenere:
-
-un costruttore con i seguenti attributi: titolo, autore, anno_pubblicazione
-
-un metodo descrizione() che ritorna una stringa con tutte le informazioni del libro
-
-un metodo è_recente() che ritorna True se l’anno di pubblicazione è maggiore o uguale a 2020, altrimenti False
-
-Obiettivo: comprendere costruttori, attributi e metodi base.
-
-"""
+# 🟠 Esercizio 1: Classe "Libro"
 
 class Libro:
     def __init__(self, titolo, autore, anno_pubblicazione): # costruttore

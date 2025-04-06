@@ -1,29 +1,6 @@
-"""🔵 Esercizio 1: Registro Studenti
-Crea due classi: Studente e Registro.
-
-Classe Studente:
-Attributi: nome, cognome, voti (lista)
-
-Metodi:
-
-aggiungi_voto(voto)
-
-media() → restituisce la media dei voti
-
-Classe Registro:
-Attributo: studenti (lista di oggetti Studente)
-
-Metodi:
-
-aggiungi_studente(studente)
-
-media_classe() → calcola la media complessiva di tutti gli studenti
-
-migliore_studente() → ritorna il nome dello studente con media più alta
-
-Obiettivo: usare più classi che interagiscono, operare su liste di oggetti.
-"""
 # 🔵 Esercizio 1: Registro Studenti
+
+# Avviso: l'esercizio contiene funzioni e procedimenti aggiuntivi non richiesti esplicitamente nelle tracce
 
 idStudenti = 0  # Variabile globale per assegnare un ID unico a ogni studente, utile per calcolare il miglior studente
 
