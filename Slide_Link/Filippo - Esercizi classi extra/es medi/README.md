@@ -1,0 +1,49 @@
+<h1 align="left">Tracce esercizi </h1>
+
+<h3 align="left">🔵 Esercizio 1: Registro Studenti </h3>
+<p align="left">
+Crea due classi: Studente e Registro.
+
+- Classe Studente:
+   - Attributi: nome, cognome, voti (lista)
+
+   - Metodi: aggiungi_voto(voto); media() → restituisce la media dei voti
+
+- Classe Registro:
+   - Attributo: studenti (lista di oggetti Studente)
+
+   - Metodi: aggiungi_studente(studente); media_classe() → calcola la media complessiva di tutti gli studenti; migliore_studente() → ritorna il nome dello studente con media più alta
+
+Obiettivo: usare più classi che interagiscono, operare su liste di oggetti.
+</p> 
+
+#
+
+<h3 align="left">🔵 Esercizio 2: Sistema di gestione prodotti </h3>
+<p align="left">
+Crea una classe Prodotto e una classe Magazzino.
+
+- Classe Prodotto:
+    - Attributi: nome, prezzo, quantità
+
+- Classe Magazzino:
+    - Attributo: prodotti (lista di oggetti Prodotto)
+    - Metodi: aggiungi_prodotto(prodotto); valore_totale() → calcola il valore totale del magazzino (somma di prezzo × quantità); cerca_prodotto(nome) → ritorna il prodotto se esiste, altrimenti un messaggio di errore
+
+Obiettivo: esercitarsi con gestione di liste, ricerca, moltiplicazioni e strutture condizionali.
+
+#
+
+<h3 align="left"> 🔵 Esercizio 3: Gestione Playlist Musicale </h3>
+<p align="left">
+Crea una classe Brano e una classe Playlist.
+
+- Classe Brano:
+   - Attributi: titolo, artista, durata (in minuti, es. 3.5)
+
+- Classe Playlist:
+   - Attributo: brani (lista di oggetti Brano
+   - Metodi:aggiungi_brano(brano); durata_totale() → somma tutte le durate; cerca_per_artista(nome) → stampa tutti i titoli dei brani di quell’artista
+
+Obiettivo: gestione di tuple o oggetti con cicli, somma e filtri.
+</p>
