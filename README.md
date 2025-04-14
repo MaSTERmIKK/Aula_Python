@@ -9,5 +9,4 @@ Benvenuti nella repository dell'Aula di Python per Analisi dei Dati e Machine Le
 - **Correzioni**: Soluzioni e spiegazioni dettagliate per ciascuna esercitazione.
 - **Risorse aggiuntive**: Materiali di approfondimento e link a documentazioni ufficiali e tutorial.
 
-Porva modifica
 
