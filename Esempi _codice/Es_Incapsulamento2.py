@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 """
 Esempi unificati di incapsulamento in Python:
 - attributi 'privati' tramite convenzione (_ e __)
